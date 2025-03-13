@@ -3,6 +3,7 @@ interface PageProps {
 }
 
 const Page = async ({ params }: PageProps) => {
+  console.log("Sever component");
   const { videoId } = await params;
 
   return <div>Video Id: {videoId}</div>;
