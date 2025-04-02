@@ -1,3 +1,5 @@
+"use client";
+
 interface PageProps {
   params: Promise<{ videoId: string }>;
 }
